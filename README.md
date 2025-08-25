@@ -25,7 +25,7 @@ A curated collection of high-quality libraries, datasets, research papers, and o
 
 ## Datasets
 
-### [PPG-BP dataset] (https://figshare.com/articles/dataset/PPG-BP_Database_zip/5459299)
+### [PPG-BP dataset](https://figshare.com/articles/dataset/PPG-BP_Database_zip/5459299)
 - **Subjects:** 219 (age 20–89)  
 - **Segments:** 657 PPG recordings
 - **Data**: One-channel fingertip PPG, three measurements of 2.1 seconds per subject. Each of the three segments has a skewness SQI assigned.PPG measurements are accompanied by systolic/distolic pressure, HR and medical record label (diabetes, cardiovascular disease)
