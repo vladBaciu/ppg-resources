@@ -43,3 +43,28 @@ A curated collection of high-quality libraries, datasets, research papers, and o
 - **Collection:** Controlled laboratory environment, fingertip sensor with amplification + filtering, digitized via MCU ADC.  
 - **License:** CC BY 4.0 (open access)  
 - **Purpose:** Designed for non-invasive blood glucose estimation from PPG; useful for studying **physiological anomaly detection** (glucose-related signal variation), but not suited for motion/noise anomaly detection or multi-wavelength comparisons.  
+
+### [Cuff-Less Blood Pressure Estimation](https://archive.ics.uci.edu/dataset/340/cuff+less+blood+pressure+estimation)
+
+- **Subjects:** Not specified (derived from PhysioNet recordings)  
+- **Segments:** 12,000 signal segments  
+- **Data:**  
+  - Three-channel physiological signals per segment:
+    - **PPG** (photoplethysmogram) from the fingertip  
+    - **ABP** (arterial blood pressure) in mmHg (invasive)  
+    - **ECG** (Lead II)  
+  - Sampling rate: 125 Hz for all channels  
+  - Format: MATLAB v7.3 `.mat` files (HDF5-compatible)  
+- **Conditions included:**  
+  - Cleaned, high-quality segments suitable for model training  
+  - No annotations for motion artifacts or physiological state variations  
+- **Collection:**  
+  - Signals originally sourced from PhysioNet databases  
+  - Preprocessed, validated, and labeled by dataset creators (Kachuee et al., 2015)  
+- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (open access, attribution required)  
+- **Purpose:**  
+  - Designed for non-invasive, cuff-less blood pressure estimation using features like pulse transit time  
+  - Ideal for signal processing, machine learning regression models  
+  - Not suitable for:
+    - Motion/noise artifact detection  
+    - Classification tasks involving medical conditions  
