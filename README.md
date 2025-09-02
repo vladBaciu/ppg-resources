@@ -48,23 +48,9 @@ A curated collection of high-quality libraries, datasets, research papers, and o
 
 - **Subjects:** Not specified (derived from PhysioNet recordings)  
 - **Segments:** 12,000 signal segments  
-- **Data:**  
-  - Three-channel physiological signals per segment:
-    - **PPG** (photoplethysmogram) from the fingertip  
-    - **ABP** (arterial blood pressure) in mmHg (invasive)  
-    - **ECG** (Lead II)  
-  - Sampling rate: 125 Hz for all channels  
-  - Format: MATLAB v7.3 `.mat` files (HDF5-compatible)  
-- **Conditions included:**  
-  - Cleaned, high-quality segments suitable for model training  
-  - No annotations for motion artifacts or physiological state variations  
-- **Collection:**  
-  - Signals originally sourced from PhysioNet databases  
-  - Preprocessed, validated, and labeled by dataset creators (Kachuee et al., 2015)  
+- **Data:** Three-channel physiological signals per segment (**PPG** fingertip, **ABP** invasive mmHg, **ECG** Lead II), sampling rate 125 Hz, format MATLAB v7.3 `.mat` (HDF5-compatible)  
+- **Conditions included:** Cleaned, high-quality segments suitable for model training; no annotations for motion artifacts or physiological state variations  
+- **Collection:** Signals originally sourced from PhysioNet databases; preprocessed, validated, and labeled by dataset creators (Kachuee et al., 2015)  
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (open access, attribution required)  
-- **Purpose:**  
-  - Designed for non-invasive, cuff-less blood pressure estimation using features like pulse transit time  
-  - Ideal for signal processing, machine learning regression models  
-  - Not suitable for:
-    - Motion/noise artifact detection  
-    - Classification tasks involving medical conditions  
+- **Purpose:** Designed for non-invasive, cuff-less blood pressure estimation using features like pulse transit time; ideal for signal processing and machine learning regression models; not suitable for motion/noise artifact detection or classification tasks involving medical conditions  
+
